@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kalkulator Persegi</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/script.css" />
+  </head>
+  <body>
+    <div class="header"><h1 class="title">Kalkulator Persegi</h1></div>
+    <div class="box">
+      <h1 class="subtitle">Persegi</h1>
+      <img src="rumus_persegi.png" alt="Rumus Persegi" />
+      <pre>
+                    <b>Dimana :</b>
+
+                    L = Luas persegi,
+                    K = Keliling persegi, dan
+                    s = Panjang sisi persegi.
+      </pre>
+      <div class="calc1">
+        <p class="subtitle2">Hitung Luas Persegi</p>
+        <form>
+          <label for="psisi">Panjang sisi persegi = </label>
+          <input
+            class="input"
+            type="number"
+            min="0"
+            id="psisi1"
+            placeholder="Angka positif"
+          />
+          <input type="button" id="btn1" value="Hitung" />
+          <p class="output1" id="result1">Luas persegi = null</p>
+          <input type="button" id="reset1" value="Hapus" />
+        </form>
+      </div>
+      <div class="calc2">
+        <p class="subtitle2">Hitung Keliling Persegi</p>
+        <form>
+          <label for="psisi2">Panjang sisi persegi = </label>
+          <input
+            class="input"
+            type="number"
+            min="0"
+            id="psisi2"
+            placeholder="Angka positif"
+          />
+          <input type="button" id="btn2" value="Hitung" />
+          <p class="output2" id="result2">Keliling persegi = null</p>
+          <input type="button" id="reset2" value="Hapus" />
+        </form>
+      </div>
+    </div>
+    <div class="footer">
+      <h1 class="title">
+        Dibuat oleh:
+        <a
+          style="text-decoration: none; color: black"
+          href="https://www.linkedin.com/in/ammar-shidqi-mattotorang-3bb152173/"
+          >Matto</a
+        >
+        <br />
+        <a
+          style="font-size: 12px"
+          href="https://www.linkedin.com/in/ammar-shidqi-mattotorang-3bb152173/"
+          >https://www.linkedin.com/in/ammar-shidqi-mattotorang-3bb152173
+        </a>
+      </h1>
+    </div>
+    <script src="/JS/script.js"></script>
+  </body>
+</html>
